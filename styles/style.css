@@ -35,6 +35,11 @@ button {
   width: 100%;
 }
 
+option {
+  color: #24243e;
+  font-weight: 700;
+}
+
 button:hover {
   color: wheat;
   background: linear-gradient(
