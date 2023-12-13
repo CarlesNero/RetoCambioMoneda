@@ -1,0 +1,80 @@
+::root {
+  --border: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  color-scheme: light dark;
+  color: #e7d8c9;
+}
+
+body {
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+select,
+button {
+  padding: 5px;
+  border-radius: 5px;
+  background: linear-gradient(to right, #96c93d, #00b09b);
+  border: 0;
+  color: #4f4f4c;
+  font-weight: 700;
+
+  width: 100%;
+}
+
+button:hover {
+  color: wheat;
+  background: linear-gradient(
+    to right,
+    #3a6186,
+    #89253e
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+main {
+  padding: 2rem;
+  border-radius: 2rem;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  box-shadow: rgba(67, 67, 201, 0.25) 0px 50px 100px -20px,
+    rgba(185, 42, 42, 0.3) 0px 30px 60px -30px,
+    rgba(41, 124, 206, 0.35) 0px -2px 6px 0px inset;
+}
+
+input {
+  text-align: center;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+#result {
+  border: 20px solid var(--border);
+  border-radius: 5px;
+  padding: 1rem;
+  width: 100%;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #96c93d, #00b09b);
+}
+
+p {
+  text-transform: uppercase;
+}
+
+.borde {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+}
