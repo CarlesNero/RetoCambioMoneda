@@ -34,17 +34,18 @@ convert.addEventListener("click", function () {
       JPY: 143.02,
       KRW: 1293.01,
     },
-    KRW: {
-      EUR: 0.00071,
-      USD: 0.00077,
-      JPY: 0.11,
-      KRW: 1,
-    },
+
     JPY: {
       EUR: 0.0064,
       USD: 0.007,
       JPY: 1,
       KRW: 9.07,
+    },
+    KRW: {
+      EUR: 0.00071,
+      USD: 0.00077,
+      JPY: 0.11,
+      KRW: 1,
     },
   };
 
